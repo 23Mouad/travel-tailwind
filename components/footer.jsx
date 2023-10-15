@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "@assets/travelogo.png";
+import Image from "next/image";
 const Footer = () => {
    return (
       <footer className="bg-gray-800 text-gray-400">
@@ -7,12 +8,12 @@ const Footer = () => {
             <div className="flex flex-wrap justify-between">
                <div className="w-full md:w-1/4 mb-4 md:mb-0">
                   {/* First column for logo and addresses */}
-                  <img src={logo} alt="Logo" className="h-8 mb-4" />
+                  <Image src={logo} alt="Logo" className="h-12 mb-4" />
                   <p className="text-sm">
-                     123 Main St. <br />
-                     Anytown, USA 12345 <br />
-                     Phone: (123) 456-7890 <br />
-                     Email: info@example.com
+                     Travel <br />
+                     Annaba, Algeria 200354 <br />
+                     Phone: (+213) 675057718 <br />
+                     Email: mouadmire8@gmail.com
                   </p>
                </div>
                <div className="w-full md:w-1/4 mb-4 md:mb-0">
