@@ -8,7 +8,7 @@ import { IconAddressBook } from "@tabler/icons-react";
 import { IconCar } from "@tabler/icons-react";
 import { IconMapPinFilled } from "@tabler/icons-react";
 import iluu from "@assets/Illustrationcat.png";
-import sepratir from "@assets/sepratir.png";
+import sepratir from "@assets/Sepratir.png";
 
 const Categorie = () => {
    const cards = [
